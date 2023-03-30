@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent {label 'master'}
     stages{
        stage('Git Checkout Stage'){
             steps{
